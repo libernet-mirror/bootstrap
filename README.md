@@ -39,7 +39,7 @@ The `nodes.json` file has the following format:
 }
 ```
 
-The main object contains one entry for each network. The key is a network name (not used in the
+The main object contains one entry for every network. The key is a network name (not used in the
 Libernet protocol) and the value is a network object. The network object contains a numeric
 `chainId` field (the network ID used in the protocol) and a `nodes` field with the list of known
 nodes. Each node has an `address` and a `port`.
